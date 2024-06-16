@@ -11,10 +11,27 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="nav-logo">
-                <img src="amazon_logo.png" alt="" id="nav-logo">
+            <div id="nav-logo-out" class="border">
+                <img src="amazon_logo.png" alt="" id="nav-logo-in">
             </div>
-            <div class="nav_location"></div>
+            <div id="nav-location" class="border">
+                <div id="location-dot">
+                    <i class="fa-solid fa-location-dot" style="color: white;"></i>
+                </div>
+                <div id="nav-location-text">
+                    <p id="nav-deliver-to">Deliver to</p>
+                    <p id="nav-india">India</p>
+                </div>
+            </div>
+            <div id="nav-search">
+                <select id="nav-search-select">
+                    <option value="">All</option>
+                </select>
+                <input type="search" placeholder="Search Amazon" id="nav-search-searchbar">
+                <div id="nav-search-button">
+                    <i class="fa-solid fa-magnifying-glass" style="font-size: 1.2rem;"></i>
+                </div>
+            </div>
         </div>
     </header>
     
