@@ -5,6 +5,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #E3E6E6;}
+
 .border{
     border: 1.5px solid transparent;
 }
@@ -46,7 +49,7 @@
     align-items: center;
 }
 
-#location-dot{ 
+#location-dot{
     padding-top: 6px;
     font-size: 1.2rem;
 }
@@ -214,4 +217,101 @@
     border: 1.5px solid white;
     border-radius: 4%;
     padding-top: 2px;
+}
+
+#hero-section{
+    position: absolute;
+    width: 1499px;
+    height:600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image:url("./Resources/Background-Image.jpg");
+    background-size: cover;
+    z-index: 0;
+}
+
+#content-block-container{
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: auto;
+    display: flex;
+    background-color: transparent;
+    z-index: 1;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.content-block{
+    background-color: #ffffff;
+    height: 395px;
+    width: 310px;
+    padding: 20px 20px 15px 20px;
+}
+
+.content-block-horizontal{
+    background-color: #ffffff;
+    height: 261.5px;
+    width: 1420px;
+    padding: 10px 20px 10px 20px;
+}
+
+/* .content-block-1{
+    background-color: #ffffff;
+    height: 395px;
+    width: 310px;
+    padding: 20px 20px 15px 20px;
+} */
+
+.content-block-heading{
+    font-size: 21px;
+    color: #0f1111;
+}
+
+.content-block-items{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+/* .content-block-items-element{
+    width: auto;
+    height: auto;
+} */
+
+.content-block-items-element-images4{
+    width: 148px;
+    height: 116px;
+    object-fit: cover;
+}
+
+.content-block-items-element-images1{
+    width: 310px;
+    height: 280px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.content-block-items-element-names{
+    font-size: 12px;
+    color: #0f1111;
+}
+
+.content-block-link-div{
+    height:60px;
+    display: flex;
+    align-items:flex-end;
+}
+
+.content-block-link{
+    text-decoration: none;
+    color: #007185;
+    font-size: 13px;
+}
+
+.content-block-horizontal-items-div{
+    display:flex;
+    gap: 10px;
 }
